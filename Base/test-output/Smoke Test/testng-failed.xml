@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Test]">
+  <test name="Smoke Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.photon.Base.Trigger.SmokeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setUpClass"/>
+          <include name="initialize"/>
+          <include name="shutDown"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.photon.Base.Trigger.SmokeTest -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

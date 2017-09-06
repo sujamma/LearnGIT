@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test">
+	<test name="Smoke Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.photon.Base.Trigger.SmokeTest" />
+		</classes>
+	</test>
+	<!-- 
+	<test name="Smoke Test1">
+		<parameter name="browser" value="safari" />
+		<parameter name="platform" value="Mac" />
+		<classes>
+			<class name="com.photon.Base.Trigger.SmokeTest" />
+		</classes>
+	</test>
+	 -->
+</suite>	
