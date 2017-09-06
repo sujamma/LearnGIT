@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTest" thread-count="1">
+	<suite-files>
+		<suite-file path="./LegacyHealthTestsConfig.xml" />
+
+	</suite-files>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [JCPSuite]">
+	<test name="JPC_HomeScreen(failed)">
+		<classes>
+			<class name="CucumberRunnerTestNgTest">
+				<methods>
+					<include name="setUpClass" />
+					<include name="feature" />
+					<include name="tearDownClass" />
+				</methods>
+			</class> <!-- CucumberRunnerTestNgTest -->
+		</classes>
+	</test> <!-- JPC_HomeScreen(failed) -->
+</suite> <!-- Failed suite [JCPSuite] -->
